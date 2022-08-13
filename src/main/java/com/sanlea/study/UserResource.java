@@ -19,7 +19,7 @@ public class UserResource {
         return UserVO.builder()
                 .id(id)
                 .name(UUID.randomUUID().toString())
-                .age(22)
+                .age(24)
                 .build();
     }
 }
