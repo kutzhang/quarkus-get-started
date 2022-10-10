@@ -9,7 +9,7 @@ import java.util.UUID;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @QuarkusTest
-public class UserVOTest {
+class UserVOTest {
     @Test
     void all() {
         var user = new UserVO();
