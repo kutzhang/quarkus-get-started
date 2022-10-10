@@ -48,4 +48,34 @@ public class GreetingResource {
     public String hello7() {
         return "Hello RESTEasy";
     }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String aa() {
+        return "Show me the money";
+    }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String aa1() {
+        return "Show me the money";
+    }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String aa2() {
+        return "Show me the money";
+    }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String aa3() {
+        return "Show me the money";
+    }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String aa4() {
+        return "Show me the money";
+    }
 }
