@@ -13,4 +13,39 @@ public class GreetingResource {
     public String hello() {
         return "Hello RESTEasy";
     }
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hello1() {
+        return "Hello RESTEasy";
+    }
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hello2() {
+        return "Hello RESTEasy";
+    }
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hello3() {
+        return "Hello RESTEasy";
+    }
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hello4() {
+        return "Hello RESTEasy";
+    }
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hello5() {
+        return "Hello RESTEasy";
+    }
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hello6() {
+        return "Hello RESTEasy";
+    }
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hello7() {
+        return "Hello RESTEasy";
+    }
 }
